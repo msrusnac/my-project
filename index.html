@@ -1,100 +1,198 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Campy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
+  <title>Document</title>
 </head>
 <body>
-  <div class="wrapper">
-    <header class ="header">
-      <a href="/" class="logo">
-        <img src="" alt="" class = "logo__pic">
-      </a>
-      <address class="contacts">
-        <a href="tel: +78000039210" class="contacts__phone">8(800)00-392-10</a>
-        <div class="contacts__workhours">Всегда на связи</div>
-      </address>
-    </header>
-    <div class="page-content">
-      <main class="main-content">
-        <nav class="breadrumbs">
-          <ul class="breadrumbs__list">
-            <li class="breadrumbs__item">
-              <a href="#" class="breadrumbs__link">Главная</a>
-              <div class="breadrumbs__separator">/</div>
+  <div class="wrapper wrapper_main">
+    <header class="header">
+      <div class="container">
+        <a href="/" class="logo header__logo">
+          <img src="./img/logo.png" alt="">
+        </a>
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--active">
+              <a href="/" class="nav__link">Главная</a>
             </li>
-            <li class="breadrumbs__active-item">
-              <a href="#" class="breadrumbs__active-link">Маршруты</a>
+      
+            <li class="nav__item">
+              <a href="/" class="nav__link ">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a href="/" class="nav__link">Отзывы</a>
             </li>
           </ul>
         </nav>
-        <div class="route">
-          <div class="route__image">
-            <img src="" alt="" class="route__image-elem">
-            <h1 class="route__image-title">Маршрут "Горы"</h1>
-          </div>
-          <div class="route__header">
-            <div class="iconed-title">
-              <img src="" alt="" class="iconed-title__icon">
-              <div class="iconed-title__text">База "Солнышко"</div>
+        <div class="header__shedule">
+          <a href="tel:88007003030" class="header__tel tel__link">8 800 700 30 30</a>
+          <a href="#" class="header__shedule-link">График работы</a>
+        </div>
+      </div>
+    </header>
+    <section class="section hero">
+      <div class="container">
+        <h1 class="h1 hero__title">Авторские туры по Азии</h1>
+        <div class="hero__description">Открой для себя Азию</div>
+        <button class="button hero__button">Подробнее</button>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Горящие туры</h2>
+        <img src="./img/flame.png" alt="">
+        <ul class="tours">
+          <li class="tours__item">
+            <div class="tours__header">
+              <img src="./img/river.png" class="tours__header-img"  alt="">
             </div>
-            <ul class="rating">
-              <li class="rating__item"><img src="" alt="" class="rating_star"></li>
-              <li class="rating__item"><img src="" alt="" class="rating_star"></li>
-              <li class="rating__item"><img src="" alt="" class="rating_star"></li>
-              <li class="rating__item"><img src="" alt="" class="rating_star"></li>
-              <li class="rating__item"><img src="" alt="" class="rating_star"></li>
-            </ul>
-          </div>
-          <div class="route__description">
-            <p class="route__description-paraptaph">
-              <b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Nobis, totam, minima ratione nisi veniam animi pariatur error earum reprehenderit perferendis quia veritatis eveniet voluptatum accusantium ad cumque accusamus in! Repellendus.
-            </p>
-            <h3 class="route__description-title">Lorem ipsum dolor sit amet</h3>
-            <ul class="route__description-list">
-              <li  class="route__description-title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a et consectetur obcaecati minus, facilis cumque aliquid, atque non laboriosam quo voluptatem expedita hic molestias accusantium, explicabo voluptates odit nihil!
+            <div class="tours__content">
+              <h3 class="tours__title">Таиланд</h3>
+              <div class="tours__service">
+                  <img src="./img/calendar.png" class="tours__service-img " alt="">
+                  <div class="tours__service-text">7-12 ночей</div>
+                  <img src="./img/meal.png" class="tours__service-img" alt="">
+                  <div class="tours__service-text">Завтраки</div>
+              </div>
+              <div class="tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+              <a href="#" class="button button__tour">Смотреть</a>
+            </div>
+          </li>
+          <li class="tours__item">
+            <div class="tours__header">
+              <img src="./img/pool.png" class="tours__header-img"  alt="">
+            </div>
+            <div class="tours__content">
+              <h3 class="tours__title">Бали</h3>
+              <div class="tours__service">
+                <img src="./img/calendar.png" class="tours__service-img" alt="">
+                <div class="tours__service-text">7-12 ночей</div>
+                <img src="./img/meal.png" class="tours__service-img" alt="">
+                <div class="tours__service-text">Завтраки</div>
+              </div>
+              <div class="tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+              <a href="#" class="button button__tour">Смотреть</a>
+            </div>
+          </li>
+          <li class="tours__item">
+            <div class="tours__header">
+              <img src="./img/ocean.png" class="tours__header-img"  alt="">
+            </div>
+            <div class="tours__content">
+              <h3 class="tours__title">Индонезия</h3>
+              <div class="tours__service">
+                <img src="./img/calendar.png" class="tours__service-img" alt="">
+                <div class="tours__service-text">7-12 ночей</div>
+                <img src="./img/meal.png" class="tours__service-img" alt="">
+                <div class="tours__service-text">Завтраки</div>
+              </div>
+              <div class="tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+              <a href="#" class="button button__tour">Смотреть</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section__second">
+      <div class="container">
+        <h2 class="section__title">Новости и акции</h2>
+        <ul class="news">
+          <li class="news__item">
+            <img src="./img/plain.png" alt="Путевки на Новый Год" class="news__item-img" >
+            <div class="news__text-content">
+              <time class="news__date">Декабрь 2019</time>
+              <div class="news__title">Дешевые путевки на Новый Год!</div>
+              <div class="news__desc">Проведи новый год в Тайланде </div>
+            </div>
+          </li>
+          <li class="news__item">
+            <img src="./img/Surfer.png" alt="Акция для серфенгистов!" class="news__item-img" >
+            <div class="news__text-content">
+              <time class="news__date">Декабрь 2019</time>
+              <div class="news__title">Акция для серфенгистов!</div>
+              <div class="news__desc">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="pager">
+          <div class="pager__display">Страница 1 из 7</div>
+          <ul class="pager__list">
+            <li class="pager__item pager__item--active"> <a href="#" class="pager__link">1</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">2</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">3</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">4</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">5</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">6</a></li>
+            <li class="pager__item"> <a href="#" class="pager__link">7</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__third">
+      <div class="container">
+        <div class="about">
+          <div class="about__desc">
+            <h2 class="about__title">О нас</h2>
+            <div class="about__desc-text">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+            </div>
+            <a href="#" class="button hero__button">Подробнее</a>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="container footer__container">
+        <img src="./img/line.png" class="footer_img" alt="">
+        <div class="footer">
+          <a href="/" class="logo footer__logo">
+            <img src="./img/logo.png" alt="">
+          </a>
+          <nav class="nav header__nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item--active">
+                <a href="/" class="nav__link">Главная</a>
               </li>
-              <li  class="route__description-title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a et consectetur obcaecati minus, facilis cumque aliquid, atque non laboriosam quo voluptatem expedita hic molestias accusantium, explicabo voluptates odit nihil!
+              <li class="nav__item">
+                <a href="/" class="nav__link ">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="/" class="nav__link">Отзывы</a>
               </li>
             </ul>
-          </div>
-          <div class="paginator">
-            <div class="paginator__display">Маршрут 1 из 7</div>
-            <a href="" class="paginator__prev"><</a>
-            <ul class="paginator__list">
-              <li class="paginator__item">1</li>
-              <li class="paginator__item">2</li>
-              <li class="paginator__item">3</li>
-              <li class="paginator__item">4</li>
-              <li class="paginator__item">5</li>
-              <li class="paginator__item">6</li>
-              <li class="paginator__item">7</li>
-            </ul>
-            <a href="#" class="paginator__next">></a>
+          </nav>
+          <ul class="socials">
+            <li class="social__item social__item--icon--telegram">
+              <a href="#" class="social__link"></a>
+            </li>
+            <li class="social__item social__item--icon--vk">
+              <a href="#" class="social__link"></a>
+            </li>
+            <li class="social__item social__item--icon--fb">
+              <a href="#" class="social__link"></a>
+            </li>
+            <li class="social__item social__item--icon--instagram">
+              <a href="#" class="social__link"></a>
+            </li>
+          </ul>
+          <div class="header__shedule footer__shedule">
+            <div class="contacts__description">Бесплатный звонок по России</div>
+            <a href="tel:88007003030" class="header__tel tel__link">8 800 700 30 30</a>
+          
           </div>
         </div>
-      </main>
-      <aside class="sidebar"></aside>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">Главная</div>
-            </li>
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">Маршруты</div>
-            </li>
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">О нас</div>
-            </li>
-          </ul>
-        </nav>
-    </div>
+      </div>
+    </footer>
   </div>
+  
 </body>
 </html>
