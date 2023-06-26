@@ -38,7 +38,7 @@ img{
  
 .wrapper_main {
   min-height: 2930px;
-  background: url(/img/1.png), url(/img/2.png), url(/img/background.png);
+  background: url(../../img/1.png), url(../../img/2.png), url(../../img/background.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position:top center, bottom center;
   background-color: #001821;

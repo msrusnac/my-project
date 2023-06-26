@@ -14,12 +14,12 @@
  
   width: 490px;
   height: 505px; 
-  background: url("/img/gates.png") center center / cover no-repeat;
+  background: url("../../img/gates.png") center center / cover no-repeat;
 }
 
 .about__desc{
   
-  background: url("/img/mountains.png") center center / cover no-repeat;
+  background: url("../../img/mountains.png") center center / cover no-repeat;
   padding: 75px 202px 83px 81px;
   max-width: 785px;
   margin-left: -140px;

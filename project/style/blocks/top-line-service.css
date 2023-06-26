@@ -1,6 +1,6 @@
 .top-line {
   min-height: 412px;
-  background: url('/img/headline.png');
+  background: url('../../img/headline.png');
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position:top center, bottom center;
   background-color: #001821;
